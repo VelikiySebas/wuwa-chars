@@ -147,8 +147,15 @@ async function main() {
   const weaponsResult = [];
 
   for (const [idStr, w] of Object.entries(weaponsData)) {
-    const id = Number(idStr);
-    console.log(`\n→ Обработка оружия ${id} — ${w.en}`);
+    const idNum = Number(idStr);
+    const nameEn = w.en;
+    // Пропускаем оружие с "Projection" в названии
+    if (nameEn.includes('Projection')) {
+      console.log(`→ Пропускаем оружие ${idNum} — ${nameEn} (Projection)`);
+      continue;
+    }
+
+    console.log(`\n→ Обработка оружия ${idNum} — ${nameEn}`);
 
     // Парсим поля
     const rank = w.rank;
