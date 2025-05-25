@@ -1,4 +1,4 @@
-// upload_roles.js
+// upload_roles_and_weapons.js
 import fs from 'fs/promises';
 import axios from 'axios';
 import { Octokit } from '@octokit/rest';
@@ -18,8 +18,8 @@ if (!GITHUB_TOKEN || !GITHUB_USER || !REPO_NAME) {
   process.exit(1);
 }
 
-// Список ID, которые нужно пропустить
-const skipIds = [1501, 1406, 1605];  // <-- добавьте сюда ваши ID
+// Список ID ролей, которые нужно пропустить
+const skipRoleIds = [1501, 1406, 1605];
 
 const octokit = new Octokit({ auth: GITHUB_TOKEN });
 
@@ -52,12 +52,12 @@ async function uploadToGitHub(pathInRepo, buffer, commitMsg) {
   }
   try {
     await octokit.repos.createOrUpdateFileContents({
-      owner:   GITHUB_USER,
-      repo:    REPO_NAME,
-      path:    pathInRepo,
+      owner: GITHUB_USER,
+      repo: REPO_NAME,
+      path: pathInRepo,
       message: commitMsg,
       content,
-      branch:  BRANCH,
+      branch: BRANCH,
       sha,
     });
     return true;
@@ -68,84 +68,125 @@ async function uploadToGitHub(pathInRepo, buffer, commitMsg) {
 }
 
 async function main() {
-  // 1) Список ролей
-  let roles;
+  // === Часть 1: Роли ===
+  let rolesList = [];
   try {
     const resp = await axios.get('https://api.encore.moe/en/character/');
-    roles = resp.data.roleList;
+    rolesList = resp.data.roleList;
   } catch (err) {
     console.error('✖ Не удалось получить список ролей:', err.message);
-    return;
   }
 
-  const result = [];
+  const rolesResult = [];
 
-  for (const role of roles) {
+  for (const role of rolesList) {
     const { Id: id, Name: name, QualityId: rarity, Element, WeaponType: weaponType } = role;
 
-    // Пропуск по ID
-    if (skipIds.includes(id)) {
+    if (skipRoleIds.includes(id)) {
       console.log(`→ Пропускаем роль ${id} — ${name}`);
       continue;
     }
 
     console.log(`\n→ Обработка роли ${id} — ${name}`);
 
-    // 2) Скачиваем и заливаем RoleHeadIcon
+    // Скачиваем и заливаем аватарку
     const headBuf = await downloadImage(role.RoleHeadIcon);
     const headPath = `icons/${id}.png`;
-    const okHead = await uploadToGitHub(headPath, headBuf, `chore: upload head ${id}`);
-    if (!okHead) {
+    if (!await uploadToGitHub(headPath, headBuf, `chore: upload head ${id}`)) {
       console.warn(`⚠ Пропускаем роль ${id} из-за ошибки аватарки`);
       continue;
     }
 
-    // 3) Формируем URL и скачиваем портрет из нового API
+    // Формируем URL портрета и скачиваем
     let pileUrl;
     try {
       const detail = await axios.get(`https://api.encore.moe/en/character/${id}`);
-      let original = detail.data.FormationRoleCard;
-      if (!original.startsWith('http')) {
-        original = 'https://api-v2.encore.moe/resource/Data/Game/Aki' + original;
+      let orig = detail.data.FormationRoleCard;
+      if (!orig.startsWith('http')) {
+        orig = 'https://api-v2.encore.moe/resource/Data/Game/Aki' + orig;
       }
-      const parsed = new URL(original);
+      const parsed = new URL(orig);
       const uiIndex = parsed.pathname.indexOf('/UI');
       if (uiIndex < 0) throw new Error('часть /UI не найдена');
       const sub = parsed.pathname.slice(uiIndex);
       pileUrl = `https://api.hakush.in/ww${sub.replace(/\.png$/, '.webp')}`;
     } catch (err) {
-      console.error(`✖ Ошибка получения URL портрета для ${id}: ${err.message}`);
+      console.error(`✖ Не удалось получить URL портрета для роли ${id}: ${err.message}`);
       continue;
     }
 
     const portBuf = await downloadImage(pileUrl);
     const portPath = `portraits/${id}.webp`;
-    const okPort = await uploadToGitHub(portPath, portBuf, `chore: upload portrait ${id}`);
-    if (!okPort) {
+    if (!await uploadToGitHub(portPath, portBuf, `chore: upload portrait ${id}`)) {
       console.warn(`⚠ Пропускаем роль ${id} из-за ошибки портрета`);
       continue;
     }
 
-    // 4) Добавляем в результат
-    result.push({
+    rolesResult.push({
       id,
       name,
       rarity,
-      element:   Element.Id,
+      element: Element.Id,
       weaponType,
       RoleHead:     `https://raw.githubusercontent.com/${GITHUB_USER}/${REPO_NAME}/${BRANCH}/${headPath}`,
       RolePortrait: `https://raw.githubusercontent.com/${GITHUB_USER}/${REPO_NAME}/${BRANCH}/${portPath}`,
     });
 
-    console.log(`✔ Роль ${id} добавлена`);
+    console.log(`✔ Роль ${id} успешно добавлена`);
   }
 
-  // 5) Сохраняем JSON
+  // === Часть 2: Оружие ===
+  let weaponsData = {};
   try {
-    await fs.writeFile('roles.json', JSON.stringify(result, null, 2), 'utf8');
-    console.log('\n✅ roles.json сохранён');
+    const resp = await axios.get('https://api.hakush.in/ww/data/weapon.json');
+    weaponsData = resp.data;
   } catch (err) {
-    console.error('✖ Ошибка записи roles.json:', err.message);
+    console.error('✖ Не удалось получить данные об оружии:', err.message);
+  }
+
+  const weaponsResult = [];
+
+  for (const [idStr, w] of Object.entries(weaponsData)) {
+    const id = Number(idStr);
+    console.log(`\n→ Обработка оружия ${id} — ${w.en}`);
+
+    // Парсим поля
+    const rank = w.rank;
+    const type = w.type;
+    const name = w.en;
+
+    // Формируем URL иконки
+    // w.icon: "/Game/Aki/UI/UIResources/.../T_IconWeapon<ID>_UI.T_IconWeapon<ID>_UI"
+    const rawIcon = w.icon.replace(/^\/Game\/Aki\/UI\//, '');
+    const resource = rawIcon.split('.')[0]; // "UIResources/.../T_IconWeapon21050064_UI"
+    const iconUrl = `https://api.hakush.in/ww/UI/${resource}.webp`;
+
+    const iconBuf = await downloadImage(iconUrl);
+    const iconPath = `weapons/${id}.webp`;
+    if (!await uploadToGitHub(iconPath, iconBuf, `chore: upload weapon ${id}`)) {
+      console.warn(`⚠ Пропускаем оружие ${id} из-за ошибки иконки`);
+      continue;
+    }
+
+    weaponsResult.push({
+      id,
+      rank,
+      type,
+      name,
+      icon: `https://raw.githubusercontent.com/${GITHUB_USER}/${REPO_NAME}/${BRANCH}/${iconPath}`,
+    });
+
+    console.log(`✔ Оружие ${id} успешно добавлено`);
+  }
+
+  // === Запись итоговых JSON ===
+  try {
+    await fs.writeFile('roles.json', JSON.stringify(rolesResult,   null, 2), 'utf8');
+    console.log('\n✅ roles.json сохранён');
+    await fs.writeFile('weapons.json', JSON.stringify(weaponsResult, null, 2), 'utf8');
+    console.log('✅ weapons.json сохранён');
+  } catch (err) {
+    console.error('✖ Ошибка записи JSON-файлов:', err.message);
   }
 }
 
