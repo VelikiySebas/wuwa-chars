@@ -1,14 +1,5 @@
 [
   {
-    "id": 1402,
-    "name": "Yangyang",
-    "rarity": 4,
-    "element": 4,
-    "weaponType": 2,
-    "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1402.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1402.webp"
-  },
-  {
     "id": 1202,
     "name": "Chixia",
     "rarity": 4,
