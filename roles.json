@@ -4,295 +4,350 @@
     "name": "Yangyang",
     "rarity": 4,
     "element": 4,
+    "weaponType": 2,
     "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1402.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1402.png"
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1402.webp"
   },
   {
     "id": 1202,
     "name": "Chixia",
     "rarity": 4,
     "element": 2,
+    "weaponType": 3,
     "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1202.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1202.png"
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1202.webp"
   },
   {
     "id": 1503,
     "name": "Verina",
     "rarity": 5,
     "element": 5,
+    "weaponType": 5,
     "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1503.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1503.png"
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1503.webp"
   },
   {
     "id": 1501,
     "name": "Rover: Spectro",
     "rarity": 5,
     "element": 5,
+    "weaponType": 2,
     "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1501.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1501.png"
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1501.webp"
   },
   {
     "id": 1102,
     "name": "Sanhua",
     "rarity": 4,
     "element": 1,
+    "weaponType": 2,
     "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1102.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1102.png"
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1102.webp"
   },
   {
     "id": 1601,
     "name": "Taoqi",
     "rarity": 4,
     "element": 6,
+    "weaponType": 1,
     "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1601.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1601.png"
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1601.webp"
   },
   {
     "id": 1502,
     "name": "Rover: Spectro",
     "rarity": 5,
     "element": 5,
+    "weaponType": 2,
     "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1502.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1502.png"
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1502.webp"
   },
   {
     "id": 1103,
     "name": "Baizhi",
     "rarity": 4,
     "element": 1,
+    "weaponType": 5,
     "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1103.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1103.png"
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1103.webp"
   },
   {
     "id": 1203,
     "name": "Encore",
     "rarity": 5,
     "element": 2,
+    "weaponType": 5,
     "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1203.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1203.png"
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1203.webp"
   },
   {
     "id": 1602,
     "name": "Danjin",
     "rarity": 4,
     "element": 6,
+    "weaponType": 2,
     "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1602.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1602.png"
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1602.webp"
   },
   {
     "id": 1403,
     "name": "Aalto",
     "rarity": 4,
     "element": 4,
+    "weaponType": 3,
     "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1403.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1403.png"
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1403.webp"
   },
   {
     "id": 1404,
     "name": "Jiyan",
     "rarity": 5,
     "element": 4,
+    "weaponType": 1,
     "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1404.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1404.png"
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1404.webp"
   },
   {
     "id": 1204,
     "name": "Mortefi",
     "rarity": 4,
     "element": 2,
+    "weaponType": 3,
     "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1204.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1204.png"
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1204.webp"
   },
   {
     "id": 1603,
     "name": "Camellya",
     "rarity": 5,
     "element": 6,
+    "weaponType": 2,
     "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1603.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1603.png"
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1603.webp"
   },
   {
     "id": 1301,
     "name": "Calcharo",
     "rarity": 5,
     "element": 3,
+    "weaponType": 1,
     "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1301.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1301.png"
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1301.webp"
   },
   {
     "id": 1302,
     "name": "Yinlin",
     "rarity": 5,
     "element": 3,
+    "weaponType": 5,
     "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1302.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1302.png"
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1302.webp"
   },
   {
     "id": 1104,
     "name": "Lingyang",
     "rarity": 5,
     "element": 1,
+    "weaponType": 4,
     "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1104.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1104.png"
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1104.webp"
   },
   {
     "id": 1303,
     "name": "Yuanwu",
     "rarity": 4,
     "element": 3,
+    "weaponType": 4,
     "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1303.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1303.png"
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1303.webp"
   },
   {
     "id": 1604,
     "name": "Rover: Havoc",
     "rarity": 5,
     "element": 6,
+    "weaponType": 2,
     "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1604.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1604.png"
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1604.webp"
   },
   {
     "id": 1605,
     "name": "Rover: Havoc",
     "rarity": 5,
     "element": 6,
+    "weaponType": 2,
     "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1605.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1605.png"
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1605.webp"
   },
   {
     "id": 1405,
     "name": "Jianxin",
     "rarity": 5,
     "element": 4,
+    "weaponType": 4,
     "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1405.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1405.png"
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1405.webp"
   },
   {
     "id": 1304,
     "name": "Jinhsi",
     "rarity": 5,
     "element": 5,
+    "weaponType": 1,
     "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1304.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1304.png"
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1304.webp"
   },
   {
     "id": 1305,
     "name": "Xiangli Yao",
     "rarity": 5,
     "element": 3,
+    "weaponType": 4,
     "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1305.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1305.png"
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1305.webp"
   },
   {
     "id": 1205,
     "name": "Changli",
     "rarity": 5,
     "element": 2,
+    "weaponType": 2,
     "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1205.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1205.png"
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1205.webp"
   },
   {
     "id": 1105,
     "name": "Zhezhi",
     "rarity": 5,
     "element": 1,
+    "weaponType": 5,
     "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1105.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1105.png"
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1105.webp"
   },
   {
     "id": 1504,
     "name": "Lumi",
     "rarity": 4,
     "element": 3,
+    "weaponType": 1,
     "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1504.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1504.png"
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1504.webp"
+  },
+  {
+    "id": 1106,
+    "name": "Youhu",
+    "rarity": 4,
+    "element": 1,
+    "weaponType": 4,
+    "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1106.png",
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1106.webp"
+  },
+  {
+    "id": 1505,
+    "name": "Shorekeeper",
+    "rarity": 5,
+    "element": 5,
+    "weaponType": 5,
+    "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1505.png",
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1505.webp"
   },
   {
     "id": 1606,
     "name": "Roccia",
     "rarity": 5,
     "element": 6,
+    "weaponType": 4,
     "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1606.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1606.png"
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1606.webp"
   },
   {
     "id": 1107,
     "name": "Carlotta",
     "rarity": 5,
     "element": 1,
+    "weaponType": 3,
     "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1107.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1107.png"
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1107.webp"
   },
   {
     "id": 1206,
     "name": "Brant",
     "rarity": 5,
     "element": 2,
+    "weaponType": 2,
     "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1206.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1206.png"
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1206.webp"
   },
   {
     "id": 1506,
     "name": "Phoebe",
     "rarity": 5,
     "element": 5,
+    "weaponType": 5,
     "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1506.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1506.png"
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1506.webp"
   },
   {
     "id": 1406,
     "name": "Rover: Aero",
     "rarity": 5,
     "element": 4,
+    "weaponType": 2,
     "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1406.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1406.png"
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1406.webp"
   },
   {
     "id": 1607,
     "name": "Cantarella",
     "rarity": 5,
     "element": 6,
+    "weaponType": 5,
     "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1607.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1607.png"
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1607.webp"
   },
   {
     "id": 1407,
     "name": "Ciaccona",
     "rarity": 5,
     "element": 4,
+    "weaponType": 3,
     "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1407.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1407.png"
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1407.webp"
   },
   {
     "id": 1507,
     "name": "Zani",
     "rarity": 5,
     "element": 5,
+    "weaponType": 4,
     "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1507.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1507.png"
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1507.webp"
   },
   {
     "id": 1408,
     "name": "Rover: Aero",
     "rarity": 5,
     "element": 4,
+    "weaponType": 2,
     "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1408.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1408.png"
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1408.webp"
   },
   {
     "id": 1207,
     "name": "Lupa",
     "rarity": 5,
     "element": 2,
+    "weaponType": 1,
     "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1207.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1207.png"
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1207.webp"
   },
   {
     "id": 1409,
     "name": "Cartethyia",
     "rarity": 5,
     "element": 4,
+    "weaponType": 2,
     "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1409.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1409.png"
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1409.webp"
   }
 ]
