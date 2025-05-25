@@ -19,7 +19,7 @@ if (!GITHUB_TOKEN || !GITHUB_USER || !REPO_NAME) {
 }
 
 // Список ID, которые нужно пропустить
-const skipIds = [1402, 1500];  // <-- добавьте сюда ваши ID
+const skipIds = [1501, 1406, 1605];  // <-- добавьте сюда ваши ID
 
 const octokit = new Octokit({ auth: GITHUB_TOKEN });
 

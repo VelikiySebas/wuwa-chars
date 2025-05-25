@@ -1,5 +1,14 @@
 [
   {
+    "id": 1402,
+    "name": "Yangyang",
+    "rarity": 4,
+    "element": 4,
+    "weaponType": 2,
+    "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1402.png",
+    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1402.webp"
+  },
+  {
     "id": 1202,
     "name": "Chixia",
     "rarity": 4,
@@ -16,15 +25,6 @@
     "weaponType": 5,
     "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1503.png",
     "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1503.webp"
-  },
-  {
-    "id": 1501,
-    "name": "Rover: Spectro",
-    "rarity": 5,
-    "element": 5,
-    "weaponType": 2,
-    "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1501.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1501.webp"
   },
   {
     "id": 1102,
@@ -162,15 +162,6 @@
     "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1604.webp"
   },
   {
-    "id": 1605,
-    "name": "Rover: Havoc",
-    "rarity": 5,
-    "element": 6,
-    "weaponType": 2,
-    "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1605.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1605.webp"
-  },
-  {
     "id": 1405,
     "name": "Jianxin",
     "rarity": 5,
@@ -277,15 +268,6 @@
     "weaponType": 5,
     "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1506.png",
     "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1506.webp"
-  },
-  {
-    "id": 1406,
-    "name": "Rover: Aero",
-    "rarity": 5,
-    "element": 4,
-    "weaponType": 2,
-    "RoleHead": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/icons/1406.png",
-    "RolePortrait": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/portraits/1406.webp"
   },
   {
     "id": 1607,
