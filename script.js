@@ -84,7 +84,7 @@ async function main() {
 
     // 1) Скачиваем RoleHeadIcon
     const headBuf = await downloadImage(role.RoleHeadIcon);
-    const headPath = `icons/role_head_${id}.png`;
+    const headPath = `icons/${id}.png`;
     const headOk = await uploadToGitHub(
       headPath,
       headBuf,
@@ -106,7 +106,7 @@ async function main() {
       continue;
     }
 
-    const portPath = `portraits/role_portrait_${id}.png`;
+    const portPath = `portraits/${id}.png`;
     const portOk = await uploadToGitHub(
       portPath,
       portraitBuf,
