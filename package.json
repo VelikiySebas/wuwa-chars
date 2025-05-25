@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "@octokit/rest": "^21.1.1",
+    "axios": "^1.9.0",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.5.0",
+    "mongoose": "^8.12.1",
+    "sharp": "^0.33.5"
+  },
+  "name": "wuwa-chars",
+  "version": "1.0.0",
+  "description": "короче\r ```\r npm i\r ```",
+  "main": "refresh_db_script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VelikiySebas/wuwa-chars.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VelikiySebas/wuwa-chars/issues"
+  },
+  "homepage": "https://github.com/VelikiySebas/wuwa-chars#readme"
+}
