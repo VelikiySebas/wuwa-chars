@@ -71,8 +71,8 @@ async function main() {
   // === Часть 1: Роли ===
   let rolesList = [];
   try {
-    const resp = await axios.get('https://api.encore.moe/en/character/');
-    rolesList = resp.data.roleList;
+    // const resp = await axios.get('https://api.encore.moe/en/character/');
+    // rolesList = resp.data.roleList;
   } catch (err) {
     console.error('✖ Не удалось получить список ролей:', err.message);
   }
@@ -169,21 +169,26 @@ async function main() {
     const iconUrl = `https://api.hakush.in/ww/UI/${resource}.webp`;
 
     const iconBuf = await downloadImage(iconUrl);
-    const iconPath = `weapons/${id}.webp`;
-    if (!await uploadToGitHub(iconPath, iconBuf, `chore: upload weapon ${id}`)) {
-      console.warn(`⚠ Пропускаем оружие ${id} из-за ошибки иконки`);
+    if (!iconBuf) {
+      console.warn(`⚠ Пропускаем оружие ${idNum} из-за не скачанной картинки`);
+      continue;
+    }
+
+    const iconPath = `weapons/${idNum}.webp`;
+    if (!await uploadToGitHub(iconPath, iconBuf, `chore: upload weapon ${idNum}`)) {
+      console.warn(`⚠ Пропускаем оружие ${idNum} из-за ошибки иконки`);
       continue;
     }
 
     weaponsResult.push({
-      id,
+      id:   idNum,
       rank,
       type,
       name,
       icon: `https://raw.githubusercontent.com/${GITHUB_USER}/${REPO_NAME}/${BRANCH}/${iconPath}`,
     });
 
-    console.log(`✔ Оружие ${id} успешно добавлено`);
+    console.log(`✔ Оружие ${idNum} успешно добавлено`);
   }
 
   // === Запись итоговых JSON ===
