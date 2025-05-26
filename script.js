@@ -149,9 +149,15 @@ async function main() {
   for (const [idStr, w] of Object.entries(weaponsData)) {
     const idNum = Number(idStr);
     const nameEn = w.en;
+    const Rank = w.rank
     // Пропускаем оружие с "Projection" в названии
     if (nameEn.includes('Projection')) {
       console.log(`→ Пропускаем оружие ${idNum} — ${nameEn} (Projection)`);
+      continue;
+    }
+    
+    if (Rank < 4) {
+      console.log(`→ Пропускаем оружие ${idNum} — ${nameEn} (ХУЕТА)`);
       continue;
     }
 
