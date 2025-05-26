@@ -1,0 +1,415 @@
+[
+  {
+    "id": 21010015,
+    "rank": 5,
+    "type": 1,
+    "name": "Lustrous Razor",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21010015.webp"
+  },
+  {
+    "id": 21010016,
+    "rank": 5,
+    "type": 1,
+    "name": "Verdant Summit",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21010016.webp"
+  },
+  {
+    "id": 21010024,
+    "rank": 4,
+    "type": 1,
+    "name": "Discord",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21010024.webp"
+  },
+  {
+    "id": 21010026,
+    "rank": 5,
+    "type": 1,
+    "name": "Ages of Harvest",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21010026.webp"
+  },
+  {
+    "id": 21010034,
+    "rank": 4,
+    "type": 1,
+    "name": "Broadblade#41",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21010034.webp"
+  },
+  {
+    "id": 21010044,
+    "rank": 4,
+    "type": 1,
+    "name": "Dauntless Evernight",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21010044.webp"
+  },
+  {
+    "id": 21010064,
+    "rank": 4,
+    "type": 1,
+    "name": "Helios Cleaver",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21010064.webp"
+  },
+  {
+    "id": 21010074,
+    "rank": 4,
+    "type": 1,
+    "name": "Autumntrace",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21010074.webp"
+  },
+  {
+    "id": 21010084,
+    "rank": 4,
+    "type": 1,
+    "name": "Waning Redshift",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21010084.webp"
+  },
+  {
+    "id": 21010094,
+    "rank": 4,
+    "type": 1,
+    "name": "Meditations on Mercy",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21010094.webp"
+  },
+  {
+    "id": 21020015,
+    "rank": 5,
+    "type": 2,
+    "name": "Emerald of Genesis",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21020015.webp"
+  },
+  {
+    "id": 21020016,
+    "rank": 5,
+    "type": 2,
+    "name": "Blazing Brilliance",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21020016.webp"
+  },
+  {
+    "id": 21020017,
+    "rank": 4,
+    "type": 2,
+    "name": "Somnoire Anchor",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21020017.webp"
+  },
+  {
+    "id": 21020024,
+    "rank": 4,
+    "type": 2,
+    "name": "Overture",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21020024.webp"
+  },
+  {
+    "id": 21020026,
+    "rank": 5,
+    "type": 2,
+    "name": "Red Spring",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21020026.webp"
+  },
+  {
+    "id": 21020034,
+    "rank": 4,
+    "type": 2,
+    "name": "Sword#18",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21020034.webp"
+  },
+  {
+    "id": 21020036,
+    "rank": 5,
+    "type": 2,
+    "name": "Unflickering Valor",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21020036.webp"
+  },
+  {
+    "id": 21020044,
+    "rank": 4,
+    "type": 2,
+    "name": "Commando of Conviction",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21020044.webp"
+  },
+  {
+    "id": 21020046,
+    "rank": 5,
+    "type": 2,
+    "name": "Bloodpact's Pledge",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21020046.webp"
+  },
+  {
+    "id": 21020064,
+    "rank": 4,
+    "type": 2,
+    "name": "Lunar Cutter",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21020064.webp"
+  },
+  {
+    "id": 21020074,
+    "rank": 4,
+    "type": 2,
+    "name": "Lumingloss",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21020074.webp"
+  },
+  {
+    "id": 21020084,
+    "rank": 4,
+    "type": 2,
+    "name": "Endless Collapse",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21020084.webp"
+  },
+  {
+    "id": 21020094,
+    "rank": 4,
+    "type": 2,
+    "name": "Fables of Wisdom",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21020094.webp"
+  },
+  {
+    "id": 21030015,
+    "rank": 5,
+    "type": 3,
+    "name": "Static Mist",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21030015.webp"
+  },
+  {
+    "id": 21030016,
+    "rank": 5,
+    "type": 3,
+    "name": "The Last Dance",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21030016.webp"
+  },
+  {
+    "id": 21030024,
+    "rank": 4,
+    "type": 3,
+    "name": "Cadenza",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21030024.webp"
+  },
+  {
+    "id": 21030026,
+    "rank": 5,
+    "type": 3,
+    "name": "Woodland Aria",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21030026.webp"
+  },
+  {
+    "id": 21030034,
+    "rank": 4,
+    "type": 3,
+    "name": "Pistols#26",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21030034.webp"
+  },
+  {
+    "id": 21030044,
+    "rank": 4,
+    "type": 3,
+    "name": "Undying Flame",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21030044.webp"
+  },
+  {
+    "id": 21030064,
+    "rank": 4,
+    "type": 3,
+    "name": "Novaburst",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21030064.webp"
+  },
+  {
+    "id": 21030074,
+    "rank": 4,
+    "type": 3,
+    "name": "Thunderbolt",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21030074.webp"
+  },
+  {
+    "id": 21030084,
+    "rank": 4,
+    "type": 3,
+    "name": "Relativistic Jet",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21030084.webp"
+  },
+  {
+    "id": 21030094,
+    "rank": 4,
+    "type": 3,
+    "name": "Romance in Farewell",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21030094.webp"
+  },
+  {
+    "id": 21040015,
+    "rank": 5,
+    "type": 4,
+    "name": "Abyss Surges",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21040015.webp"
+  },
+  {
+    "id": 21040016,
+    "rank": 5,
+    "type": 4,
+    "name": "Verity's Handle",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21040016.webp"
+  },
+  {
+    "id": 21040024,
+    "rank": 4,
+    "type": 4,
+    "name": "Marcato",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21040024.webp"
+  },
+  {
+    "id": 21040026,
+    "rank": 5,
+    "type": 4,
+    "name": "Tragicomedy",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21040026.webp"
+  },
+  {
+    "id": 21040034,
+    "rank": 4,
+    "type": 4,
+    "name": "Gauntlets#21D",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21040034.webp"
+  },
+  {
+    "id": 21040036,
+    "rank": 5,
+    "type": 4,
+    "name": "Blazing Justice",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21040036.webp"
+  },
+  {
+    "id": 21040044,
+    "rank": 4,
+    "type": 4,
+    "name": "Amity Accord",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21040044.webp"
+  },
+  {
+    "id": 21040064,
+    "rank": 4,
+    "type": 4,
+    "name": "Hollow Mirage",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21040064.webp"
+  },
+  {
+    "id": 21040074,
+    "rank": 4,
+    "type": 4,
+    "name": "Stonard",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21040074.webp"
+  },
+  {
+    "id": 21040084,
+    "rank": 4,
+    "type": 4,
+    "name": "Celestial Spiral",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21040084.webp"
+  },
+  {
+    "id": 21040094,
+    "rank": 4,
+    "type": 4,
+    "name": "Legend of Drunken Hero",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21040094.webp"
+  },
+  {
+    "id": 21050015,
+    "rank": 5,
+    "type": 5,
+    "name": "Cosmic Ripples",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21050015.webp"
+  },
+  {
+    "id": 21050016,
+    "rank": 5,
+    "type": 5,
+    "name": "Stringmaster",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21050016.webp"
+  },
+  {
+    "id": 21050017,
+    "rank": 4,
+    "type": 5,
+    "name": "Call of the Abyss",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21050017.webp"
+  },
+  {
+    "id": 21050024,
+    "rank": 4,
+    "type": 5,
+    "name": "Variation",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21050024.webp"
+  },
+  {
+    "id": 21050026,
+    "rank": 5,
+    "type": 5,
+    "name": "Rime-Draped Sprouts",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21050026.webp"
+  },
+  {
+    "id": 21050027,
+    "rank": 4,
+    "type": 5,
+    "name": "Ocean's Gift",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21050027.webp"
+  },
+  {
+    "id": 21050034,
+    "rank": 4,
+    "type": 5,
+    "name": "Rectifier#25",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21050034.webp"
+  },
+  {
+    "id": 21050036,
+    "rank": 5,
+    "type": 5,
+    "name": "Stellar Symphony",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21050036.webp"
+  },
+  {
+    "id": 21050044,
+    "rank": 4,
+    "type": 5,
+    "name": "Jinzhou Keeper",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21050044.webp"
+  },
+  {
+    "id": 21050046,
+    "rank": 5,
+    "type": 5,
+    "name": "Luminous Hymn",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21050046.webp"
+  },
+  {
+    "id": 21050056,
+    "rank": 5,
+    "type": 5,
+    "name": "Whispers of Sirens",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21050056.webp"
+  },
+  {
+    "id": 21050064,
+    "rank": 4,
+    "type": 5,
+    "name": "Comet Flare",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21050064.webp"
+  },
+  {
+    "id": 21050074,
+    "rank": 4,
+    "type": 5,
+    "name": "Augment",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21050074.webp"
+  },
+  {
+    "id": 21050084,
+    "rank": 4,
+    "type": 5,
+    "name": "Fusion Accretion",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21050084.webp"
+  },
+  {
+    "id": 21050094,
+    "rank": 4,
+    "type": 5,
+    "name": "Waltz in Masquerade",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21050094.webp"
+  }
+]
