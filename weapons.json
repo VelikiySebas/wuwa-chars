@@ -35,6 +35,13 @@
     "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21010034.webp"
   },
   {
+    "id": 21010036,
+    "rank": 5,
+    "type": 1,
+    "name": "Wildfire Mark",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21010036.webp"
+  },
+  {
     "id": 21010044,
     "rank": 4,
     "type": 1,
@@ -131,6 +138,13 @@
     "type": 2,
     "name": "Bloodpact's Pledge",
     "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21020046.webp"
+  },
+  {
+    "id": 21020056,
+    "rank": 5,
+    "type": 2,
+    "name": "Defier's Thorn",
+    "icon": "https://raw.githubusercontent.com/VelikiySebas/wuwa-chars/main/weapons/21020056.webp"
   },
   {
     "id": 21020064,
